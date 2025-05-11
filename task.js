@@ -30,7 +30,7 @@ export function fetchData() {
     }, 1000); // Simulate a 1-second delay
   });
 }
-// Function 
+// Function Fetch
 export function rejectFetchData() {
   return new Promise((resolve, reject) => {
     // Simulate an async operation (e.g., fetching data from an API)
