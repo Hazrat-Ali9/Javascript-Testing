@@ -10,7 +10,7 @@ describe("divide()", () => {
     const result = divide(-10, 2);
     expect(result).toBe(-5);
   });
-
+// Should Fail
   it("should fail", () => {
     const result = () => divide(10, 0);
     expect(result).toThrow("Division by zero");
