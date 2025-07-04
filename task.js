@@ -1,4 +1,4 @@
-// Unit 1
+// function task
 export function divide(a, b) {
   if (b === 0) {
     throw new Error("Division by zero");
