@@ -6,7 +6,7 @@ export function divide(a, b) {
   return a / b;
 }
 
-// Unit 2
+// Function Callback
 export function executeCallback(callback, taskText) {
   callback(taskText);
 }
