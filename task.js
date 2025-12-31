@@ -10,7 +10,7 @@ export function divide(a, b) {
 export function executeCallback(callback, taskText) {
   callback(taskText);
 }
-// Call back function
+// callback
 function myCallback(taskText) {
   console.log(`Task: ${taskText}`);
 }
